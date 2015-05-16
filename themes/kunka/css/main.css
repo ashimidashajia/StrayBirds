@@ -11,22 +11,30 @@
 }
 
 html, body { height: 100%; }
-body, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre,  form, fieldset, legend, input, textarea, p, blockquote, th, td, hr, button, article, aside, details, figcaption, figure, footer, header, group, menu, nav, section { margin: 0; padding: 0; }
+body, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, fieldset, legend, input, textarea, p, blockquote, th, td, hr, button, article, aside, details, figcaption, figure, footer, header, group, menu, nav, section { margin: 0; padding: 0; }
 ul, ol {
     list-style-type: none;
 }
-
 code, pre {
+  font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
   color: #333;
   font-size: 12px;
   overflow-x: auto;
 }
 
-
+pre {
+  padding: 20px;
+  background: #3A3C42;
+  color: #f8f8f2;
+  margin: 0 -20px 20px;
+}
 pre code {
   color: #f8f8f2;
 }
-
+li pre {
+  margin-left: -60px;
+  padding-left: 60px;
+}
 body {
     background: #92b3a2 url(../images/bg.jpg) repeat 0 0;
     font-size: 14px;
