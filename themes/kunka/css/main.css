@@ -17,18 +17,12 @@ ul, ol {
 }
 
 code, pre {
-  font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
   color: #333;
   font-size: 12px;
   overflow-x: auto;
 }
 
-pre {
-  padding: 20px;
-  background: #3A3C42;
-  color: #f8f8f2;
-  margin: 0 -20px 20px;
-}
+
 pre code {
   color: #f8f8f2;
 }
