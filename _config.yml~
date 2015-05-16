@@ -120,9 +120,9 @@ baseurl: /blog
 markdown: redcarpet
 safe: false
 highlighter: pygments
-title: 飞鸟集
-description: 人生到处知何似，应似飞鸿踏雪泥
-theme: hack   
+title: 沙罗双树园
+description: 用心总结，不知不觉中成长，何乐不为。
+theme: modernist    
 disqusname: minixalpha
 
 # theme can be: hack, leap-day, merlot, midnight, minimal, modernist, slate, time-machine, kunka
